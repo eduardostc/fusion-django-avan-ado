@@ -1,0 +1,42 @@
+# Ambiente Virtual
+venv/
+.venv/
+
+# Arquivos de cache
+__pycache__/
+*.py[cod]
+
+# Arquivos do Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do VSCode
+.vscode/
+
+# Arquivos de configuração do PyCharm
+.idea/
+
+# Arquivos de distribuição
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+
+# Arquivos de configuração do pytest
+.tox/
+.nox/
+.coverage
+.hypothesis/
+.pytest_cache/
+
+# Outros arquivos que você não quer versionar
+.env
